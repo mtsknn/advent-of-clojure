@@ -1,4 +1,4 @@
-# advent-of-code.clj
+# Advent of Clojure
 
 **[Advent of Code 2021](https://adventofcode.com/2021) solutions in Clojure.**
 
@@ -11,7 +11,7 @@ so don't try to learn from my solutions. 😃
 The files are meant to be evaluated in a REPL a small piece at a time.
 Running a full file from the CLI probably won't work.
 
-- [2021/01.clj](./src/advent_of_code/2021/01.clj)
+- [2021/01.clj](src/advent_of_clojure/2021/01.clj)
 
 ## License
 

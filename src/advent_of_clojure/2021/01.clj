@@ -1,11 +1,11 @@
-(ns advent-of-code.2021.01
+(ns advent-of-clojure.2021.01
   (:require [clojure.string :as str]))
 
 (def test-data
   [199 200 208 210 200 207 240 269 260 263])
 
 (def data
-  (->> "src/advent_of_code/2021/01-input.txt"
+  (->> "src/advent_of_clojure/2021/01-input.txt"
        slurp
        str/split-lines
        (map #(Integer/parseInt %))))

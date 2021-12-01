@@ -1,4 +1,4 @@
-(ns advent-of-code.core)
+(ns advent-of-clojure.core)
 
 (defn foo
   "I don't do a whole lot."
