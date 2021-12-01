@@ -1,7 +1,8 @@
 (ns advent-of-clojure.2021.01
   (:require [clojure.string :as str]))
 
-(def test-data
+; Test data
+(def data
   [199 200 208 210 200 207 240 269 260 263])
 
 (def data
@@ -25,7 +26,7 @@
 (defn increasing? [[a b]]
   (> b a))
 
-(def part-1-result
+(def part-1
   (->> data
        create-pairs
        (filter increasing?)
@@ -36,7 +37,7 @@
 (defn create-groups-of-3 [numbers]
   (partition 3 1 numbers))
 
-(def part-2-result
+(def part-2
   (->> data
        create-groups-of-3
        (map #(apply + %))
