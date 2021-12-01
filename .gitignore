@@ -10,3 +10,6 @@ pom.xml.asc
 /.nrepl-port
 .hgignore
 .hg/
+
+# Get your own inputs from https://adventofcode.com/
+/resources/inputs/

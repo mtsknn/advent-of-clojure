@@ -6,7 +6,7 @@
   [199 200 208 210 200 207 240 269 260 263])
 
 (def data
-  (->> "src/advent_of_clojure/2021/01-input.txt"
+  (->> "resources/inputs/2021/01.txt"
        slurp
        str/split-lines
        (map #(Integer/parseInt %))))
