@@ -3,5 +3,4 @@
   :url "https://github.com/mtsknn/advent-of-clojure"
   :license {:name "MIT"
             :url "https://opensource.org/licenses/MIT"}
-  :dependencies [[org.clojure/clojure "1.10.1"]]
-  :repl-options {:init-ns advent-of-clojure.core})
+  :dependencies [[org.clojure/clojure "1.10.1"]])
