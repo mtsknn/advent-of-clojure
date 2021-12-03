@@ -17,6 +17,8 @@
               [(keyword direction)
                (Integer/parseInt amount)]))))
 
+:input test-data
+:output {:distance 15 :depth 10}
 (defn follow-commands [commands]
   (reduce
     (fn [position [direction amount]]
@@ -36,6 +38,8 @@
        follow-commands
        distance-*-depth))
 
+:input test-data
+:output {:distance 15 :depth 60 :aim 10}
 (defn follow-commands-2 [commands]
   (reduce
     (fn [{:keys [aim] :as position} [direction amount]]
