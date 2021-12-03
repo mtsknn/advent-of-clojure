@@ -2,8 +2,7 @@
   (:require [advent-of-clojure.util :as util]
             [clojure.string :as str]))
 
-;; Test data
-(def data
+(def test-data
   [[:forward 5]
    [:down    5]
    [:forward 8]
