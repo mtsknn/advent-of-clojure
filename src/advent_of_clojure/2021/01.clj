@@ -13,10 +13,12 @@
 ;; so they don't affect the Clojure program in any way.
 ;; I learned the trick from Fred Overflow:
 ;; https://youtu.be/orFYFwiG1dM
-:input [1 2 3 4]
-:output '((1 2) (2 3) (3 4))
-(defn create-pairs [numbers]
-  (partition 2 1 numbers))
+:input 2 [1 2 3 4 5]
+:output '((1 2) (2 3) (3 4) (4 5))
+:input 3 [1 2 3 4 5]
+:output '((1 2 3) (2 3 4) (3 4 5))
+(defn group [n numbers]
+  (partition n 1 numbers))
 
 :input [1 2]
 :output true
@@ -25,19 +27,14 @@
 
 (def part-1
   (->> data
-       create-pairs
+       (group 2)
        (filter increasing?)
        count))
 
-:input [1 2 3 4 5]
-:output '((1 2 3) (2 3 4) (3 4 5))
-(defn create-groups-of-3 [numbers]
-  (partition 3 1 numbers))
-
 (def part-2
   (->> data
-       create-groups-of-3
+       (group 3)
        (map #(apply + %))
-       create-pairs
+       (group 2)
        (filter increasing?)
        count))
