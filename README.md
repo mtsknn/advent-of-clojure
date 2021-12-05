@@ -21,6 +21,7 @@ Running a full file probably won't work.
 - [2021/01.clj](src/advent_of_clojure/2021/01.clj)
 - [2021/02.clj](src/advent_of_clojure/2021/02.clj)
 - [2021/03.clj](src/advent_of_clojure/2021/03.clj)
+- [2021/04.clj](src/advent_of_clojure/2021/04.clj)
 
 ## License
 
