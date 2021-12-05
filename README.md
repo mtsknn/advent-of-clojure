@@ -6,12 +6,9 @@ I don't really know what I'm doing
 (I'm not proficient in Clojure),
 so don't try to learn from my solutions. 😃
 
-## Puzzles
-
 [Puzzle instructions available at Advent of Code.](https://adventofcode.com/)
-
 Each puzzle has two parts.
-You need to solve Part 1 before you can see Part 2.
+Part 2 is unlocked after solving Part 1.
 
 ## Solutions
 
@@ -23,6 +20,13 @@ Running a full file probably won't work.
 - [2021/03.clj](src/advent_of_clojure/2021/03.clj)
 - [2021/04.clj](src/advent_of_clojure/2021/04.clj)
 - [2021/05.clj](src/advent_of_clojure/2021/05.clj)
+
+## Wanna mentor me?
+
+If you know Clojure and don't have anything better to do (heh),
+feel free to [open an issue](https://github.com/mtsknn/advent-of-clojure/issues)
+and let me know how I could improve my code or make it more idiomatic.
+Thanks!
 
 ## License
 
